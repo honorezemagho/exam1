@@ -1,0 +1,26 @@
+*,
+*before,
+*after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+form {
+    display: inline-block;
+    place-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: lightseagreen;
+}
+
+#title-student-informatiom {
+    text-align: center;
+}
+
+.row {
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,58 @@
+body {
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 960px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+header,
+footer {
+    padding: 10px 0;
+    text-align: center;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+header {
+    margin: 0 0 10px 0;
+}
+
+footer {
+    margin: 10px 0 0 0;
+}
+
+.page-content {
+    width: 100%;
+    padding: 5px 5px 15px 2px;
+    display: flex;
+}
+
+main {
+    flex: 80%;
+    border: 1px solid black;
+    padding: 5em 15em 5em 0.5em;
+    margin-right: 5px;
+}
+
+aside {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+}
+
+.adsense-banner {
+    box-sizing: border-box;
+    flex: 35%;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding: 25px 25px 25px 10px;
+}
+
+.another-widget {
+    box-sizing: border-box;
+    flex: 65%;
+    border: 1px solid black;
+    padding: 45px 45px 45px 10px;
+}
